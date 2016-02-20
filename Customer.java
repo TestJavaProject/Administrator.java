@@ -3,6 +3,7 @@ public class Customer extends User{
 	private long creditCard;
 	private Arraylist<String> interests;
 	private String postalAddress;
+	private ArrayList<Order> orders;
 
 	public void addInterests(String interest){
 		interests.add(interest);

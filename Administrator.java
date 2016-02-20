@@ -4,12 +4,6 @@ public class Administrator extends User{
 	private ArrayList<String> permissions;
 	private ArrayList<String> role;
 
-	public Administrator(User u){
-		us = u;
-		permissions = new ArrayList<String>();
-		role = new ArrayList<String>();
-	}
-
 	public void addRole(String role){
 		this.role.add(role);
 	}
