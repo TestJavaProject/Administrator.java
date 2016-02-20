@@ -3,7 +3,6 @@ import java.util.ArrayList;
 public class Administrator extends User{
 	private ArrayList<String> permissions;
 	private ArrayList<String> role;
-	private User us;
 
 	public Administrator(User u){
 		us = u;

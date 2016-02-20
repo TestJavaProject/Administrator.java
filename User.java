@@ -1,4 +1,5 @@
-public class User extends Administrator{
+import java.util.ArrayList;
+public class User{
 
 	private String name, email, userName, password, loginStatus;
 	private Customer c;
